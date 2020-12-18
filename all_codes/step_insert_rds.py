@@ -5,10 +5,10 @@ import pymysql
 
 
 #rds connection
-rds_endpoint='db-transaction.cme2zmutnvvg.us-east-1.rds.amazonaws.com'
-username= 'admin'
-password= 'admin2020'
-db_name='transaction'
+rds_endpoint='*****'
+username= '*****'
+password='*****'
+db_name='*****'
 conn=None
 conn = pymysql.connect(host=rds_endpoint, user=username, password=password, db='transaction')
 
