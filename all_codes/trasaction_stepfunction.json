@@ -3,7 +3,7 @@
   "StartAt": "transaction-fraud-detector-step",
   "States": {
     "transaction-fraud-detector-step": {
-      "Resource": "arn:aws:lambda:us-east-1:284378271947:function:transaction-fraud-detector-step",
+      "Resource": '*****',
       "Type": "Task",
       "Next": "Concurrence"
     },
@@ -16,7 +16,7 @@
           "States": {
             "RDS": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-east-1:284378271947:function:insertrds_step",
+              "Resource":'*****',
               "End": true
             }
           }
@@ -26,7 +26,7 @@
           "States": {
             "email": {
               "Type": "Task",
-              "Resource": "arn:aws:lambda:us-east-1:284378271947:function:sendemail_step",
+              "Resource": '*****',
               "End": true
             }
           }
