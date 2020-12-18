@@ -24,7 +24,7 @@ def lambda_handler(event, context):
     response = client.start_execution(
           input= input_json,
           name =transactionId,
-          stateMachineArn= "arn:aws:states:us-east-1:284378271947:stateMachine:TransactionStepfunction"
+          stateMachineArn= "*********"
           )
           
     print(response)
