@@ -40,7 +40,7 @@ if choice == "Login":
     if st.sidebar.checkbox("Login"):
 
         st.success("Logged in as {}".format(username))
-        gateway_url0 = 'https://sjys10yiqj.execute-api.us-east-1.amazonaws.com/dev/signin'
+        gateway_url0 = '*****'
         # convert into json format
         json_payload0 = json.dumps({"username": username, "password": password})
         response0 = requests.post(gateway_url0, data=json_payload0)
@@ -50,7 +50,7 @@ if choice == "Login":
 
 
         # st.success("Logged in as {}".format(username))
-        gateway_url0 = 'https://sjys10yiqj.execute-api.us-east-1.amazonaws.com/dev/signin'
+        gateway_url0 = '*****'
         # convert into json format
         json_payload0 = json.dumps({"username": username, "password": password})
         response0 = requests.post(gateway_url0, data=json_payload0)
@@ -118,7 +118,7 @@ if choice == "Sign Up":
     password1 =new_password
 
     if st.button("SignUp"):
-        gateway_url5 = 'https://sjys10yiqj.execute-api.us-east-1.amazonaws.com/dev/signup'
+        gateway_url5 = '*****'
         # convert into json format
         json_payload5 = json.dumps({"username": username1, "password": password1})
         response5 = requests.post(gateway_url5, data=json_payload5)
