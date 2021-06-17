@@ -1,4 +1,4 @@
-# CSYE7245 - Serverless Transactions Fraud Detection & Notification
+# Serverless Transactions Fraud Detection & Notification
 December  18, 2020
 
 **Team-2**
